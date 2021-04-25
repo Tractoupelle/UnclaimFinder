@@ -1,0 +1,11 @@
+name: UnclaimFinder
+version: ${project.version}
+description: Public UnclaimFinder plugin.
+author: Tractopelle
+
+main: fr.tractopelle.unclaimfinder.CorePlugin
+
+commands:
+  unclaimfinder:
+    aliases: [uf]
+    description: Main command.

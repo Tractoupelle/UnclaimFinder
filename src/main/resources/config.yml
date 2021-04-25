@@ -1,0 +1,43 @@
+###############################################################
+#  Default configuration for FoodEffects by Tractopelle#4020  #
+###############################################################
+
+PREFIX: "§6UnclaimFinder §f» §e"
+
+NO-PERMISSION: "You don't have the permission."
+NOT-PLAYER: "Only player can execute this command."
+UNKNOW-PLAYER: "This player does not exist or is not logged in."
+GIVE: "You have given a unclaimfinder to %player%."
+RECIEVE: "You recieve a unclaimfinder."
+USAGE-ADMIN:
+  - "§6UnclaimFinder §f» §e"
+  - " §f» §e/unclaimfinder give <player>"
+DISPLAY:
+  MESSAGE: "§6UnclaimFinder §f» §e%percentage%%"
+  TYPE:
+    - CHAT
+    - ACTIONBAR
+
+RANGE-IN-CHUNK: 2
+
+ITEM:
+  MATERIAL: COMPASS
+  DURABILITY: 2000
+  GLOW: TRUE
+  NAME: "§6§l☾ §eUnclaimFinder §6§l☽"
+  LORE:
+    - ""
+    - "§f» §eDurability : §6%durability%§e/§6%maxdurability%"
+    - ""
+    - " §f» §eRight click to use."
+
+PERCENTAGE:
+  CHEST: 1
+  WORKBENCH: 1
+  FURNACE: 1
+  ENDER_CHEST: 1
+  TRAPPED_CHEST: 1
+  ANVIL: 1
+  DROPPER: 1
+  DISPENSER: 1
+  HOPPER: 1
